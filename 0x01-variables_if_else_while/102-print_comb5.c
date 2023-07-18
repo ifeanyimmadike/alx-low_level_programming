@@ -11,7 +11,7 @@ int main(void)
 
 	for (c = 0 ; c < 99 ; c++)
 	{
-		for (d = c + 1 ; d < 100 ; d++)
+		for (d = c + 1 ; d <= 99 ; d++)
 		{
 			putchar((c / 10) + '0');
 			putchar((c % 10) + '0');
@@ -19,10 +19,10 @@ int main(void)
 			putchar((d / 10) + '0');
 			putchar((d % 10) + '0');
 
-			if (c == 98 && d == 99)
-				continue;
-				putchar(',');
-				putchar(' ');
+				if (c == 98 && d == 99)
+					continue;
+					putchar(',');
+					putchar(' ');
 		}
 	}
 
