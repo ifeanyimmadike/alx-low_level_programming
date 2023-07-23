@@ -1,1 +1,2 @@
-lets do hard c programming 
+
+ Hello world c 
