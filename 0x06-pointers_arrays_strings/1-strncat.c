@@ -1,13 +1,13 @@
 #include "main.h"
 /**
- * _strcat - concatenate dest and src
+ * _strncat - concatenate dest and src
  * @dest: values
  * @src:values
  * @n: parameter
  * Return: void
  */
 
-char *_strcat(char *dest, char *src, int n)
+char *_strncat(char *dest, char *src, int n)
 {
 	int j;
 	int k;
