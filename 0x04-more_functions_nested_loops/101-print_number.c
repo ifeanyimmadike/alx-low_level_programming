@@ -6,14 +6,15 @@
  */
 void print_number(int n)
 {
-	int i;
+	unsigned int i = n;
 
-	for (i = 0 ; i <= n; i++)
-	{ 
-		if ( n % 10) == 0 || (n / 10) == 0)
-		{
-			printf("%d\n", n + '0');
-		}
+	if (n < 0)
+	{
+		_putchar(45);
+		i = -i;
 	}
-	return (0)
+	if (i / 10)
+	{
+		print_number(i / 10);
+	} _putchar(i % 10 + '0');
 }
