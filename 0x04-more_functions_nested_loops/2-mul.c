@@ -1,4 +1,4 @@
-#include "main.c"
+#include "main.h"
 /**
  * mul- multiplication of two integers
  * @a:integer 1
