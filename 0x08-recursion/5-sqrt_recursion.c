@@ -1,18 +1,6 @@
 #inlude "main.h"
 /**
- *_sqrt_recursion - shows the square root
- * @n:input
- * Reture:0
- */
-int _sqrt_recursion(int n)
-{
-	if (n <= 0)
-		return (-1);
-	return (real_sqrt_recursion(n, 0));
-}
-
-/**
- * real_sqrt_recursion - recurses to find the natural
+ *_sqrt_recursion - recurses to find the natural
  * @n: number to calculate the sqaure root of
  * @i: iterator
  *
