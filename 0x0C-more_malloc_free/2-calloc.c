@@ -2,7 +2,7 @@
 #include <stdlib.h>
 /**
  * _calloc-function to allocate memory with malloc
- * @nmeb:array
+ * @nmemb:array
  * @size:size
  * Return:0
  */
