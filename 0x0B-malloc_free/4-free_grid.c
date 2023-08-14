@@ -2,10 +2,10 @@
 #include <stdio.h>
 #include <stdlib.h>
 /**
- * free_grind-a function how to free
- * @grind:pointer
- * @height:height input
- * Return:pointer
+ * free_grid - a function how to free
+ * @height: height input
+ * @grid: input pointer
+ * Return: pointer
  */
 void free_grid(int **grid, int height)
 {
