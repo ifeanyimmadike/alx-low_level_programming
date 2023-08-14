@@ -1,13 +1,19 @@
 #include "main.h"
 #include <stdio.h>
 #include <stdlib.h>
+/**
+ * free_grind-a function how to free
+ * @grind:pointer
+ * @height:height input
+ * Return:pointer
+ */
 void free_grid(int **grid, int height)
 {
-	int i;
+	int jk;
 
-	for (i = 0; i < height; i++)
+	for (jk = 0; jk < height; jk++)
 	{
-		free(grid[i]);
+		free(grid[jk]);
 	}
 	free(grid);
 }
