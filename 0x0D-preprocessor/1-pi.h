@@ -10,7 +10,7 @@
  */
 int mainf(void)
 {
-        printf("%.11f\n", PI);
-        return (0);
+	printf("%.11f\n", PI);
+	return (0);
 }
 #endif
