@@ -7,15 +7,7 @@
  */
 void print_name(char *name, void (*f)(char *))
 {
-	printf("%s", name[j]);
+	printf("%s", name);
 	f(name);
 }
-int main(void)
-{
-	int i, j, n;
-	for (i = 0; i < n; i++)
-		for (j = 0; j < i; j++)
-		{
-			f(name[j]);
-		}
-}
+
