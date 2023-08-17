@@ -8,18 +8,7 @@
  */
 void print_name(char *name, void (*f)(char *))
 {
-	if(name == NULL && f == null ) 
-	f(name);
-}
-void (*ptr)(char *)
-{
-	ptr();
-}
-/**
- * main-funct name
- */
-void main(void)
-{
-	printf("%s", name)
-	return (0);
+	if(name == NULL && f == NULL ) 
+		
+		f(name);
 }
