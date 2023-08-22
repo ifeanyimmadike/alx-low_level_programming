@@ -26,14 +26,5 @@ int sum_them_all(const unsigned int n, ...)
 	va_end(args);
 	return (sum);
 }
-/**
- * main-void function
- *Return:0
- */
-int main(void)
-{
-	printf("sum_off:%d\n", sum_them_all);
-	return (0);
-}
 
 
