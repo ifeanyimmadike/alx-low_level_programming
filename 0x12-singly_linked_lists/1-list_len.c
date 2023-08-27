@@ -1,17 +1,17 @@
+#include "lists.h"
 /**
- * print_list-function to print no of node
+ * print_len-function to print no of node
  * @h:pointer
  * Return:i
  */
-size_t print_list(const list_t *h)
+size_t list_len(const list_t *h)
 {
-        size_t i = 0;
+	size_t i = 0;
 
-        while (h)
-        {
-        h = h->next;
-        i++;
-        }
-
-        return (i);
+	while (h)
+	{
+	h = h->next;
+	i++;
+	}
+	return (i);
 }
