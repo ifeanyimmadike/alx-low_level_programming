@@ -1,6 +1,6 @@
 #include "lists.h"
 /**
- * print_len-function to print no of node
+ * list_len-function to print no of node
  * @h:pointer
  * Return:i
  */
