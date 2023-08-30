@@ -1,7 +1,7 @@
 #include "lists.h"
 
 /**
- * pop_listint - deletes the head node 
+ * pop_listint - deletes the head node
  * @head: pointer to the first element in the linked list
  *
  * Return: the data inside the elements that was deleted,
