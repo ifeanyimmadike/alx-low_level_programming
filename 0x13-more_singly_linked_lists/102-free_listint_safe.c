@@ -2,14 +2,14 @@
 
 /**
  * free_listint_safe - frees a linked list
- * @h: pointer 
+ * @h: pointer
  *
  * Return: number of elements in the freed list
  */
 size_t free_listint_safe(listint_t **h)
 {
 	size_t len = 0;
-	int diff;
+	int minus;
 	listint_t *temp;
 
 	if (!h || !*h)
@@ -17,8 +17,8 @@ size_t free_listint_safe(listint_t **h)
 
 	while (*h)
 	{
-		diff = *h - (*h)->next;
-		if (diff > 0)
+		minus = *h - (*h)->next;
+		if (minus > 0)
 		{
 			temp = (*h)->next;
 			free(*h);
