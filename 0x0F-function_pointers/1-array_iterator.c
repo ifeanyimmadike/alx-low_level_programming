@@ -1,7 +1,7 @@
 #include "main.h"
 #include <stdio.h>
 /**
- * array_iterator - prints each array elem on a newl
+ * array_iterator - prints each array element
  * @array: array
  * @size: how many elem to print
  * @action: pointer to print in regular or hex
