@@ -1,5 +1,0 @@
-STRUCT 
-TYDEF
-
-
-
